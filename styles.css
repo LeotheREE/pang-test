@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    background: linear-gradient(to bottom right, #74ebd5, #acb6e5);
+    background: linear-gradient(to bottom right, #26294c, #222544);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #333;
+    color: white;
     text-align: center;
     transition: background 0.5s ease-in-out;
 }
@@ -25,7 +25,7 @@ body.fade-in {
 }
 
 #menu-container, #quiz-container {
-    background: white;
+    background: #191933;
     border-radius: 12px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     width: 90%;
@@ -43,7 +43,7 @@ body.fade-in {
 }
 
 h1 {
-    color: #333;
+    color: white;
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 20px;
@@ -56,13 +56,13 @@ h1 {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #5b4db0;
     color: white;
     transition: background-color 0.3s, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .category:hover, #next-button:hover, #restart-button:hover {
-    background-color: #0056b3;
+    background-color: #ae4ffe;
     transform: scale(1.05);
     box-shadow: 0 5px 10px rgba(0, 123, 255, 0.4);
 }
@@ -86,10 +86,10 @@ h1 {
     max-width: 400px;
     padding: 14px; 
     font-size: 1rem;
-    border: 2px solid #ccc;
+    border: 2px solid #222544;
     border-radius: 8px;
-    background-color: #f9f9f9;
-    color: #444;
+    background-color: #222544;
+    color: white;
     cursor: pointer;
     text-align: center;
     transition: all 0.3s ease-in-out;
@@ -97,8 +97,8 @@ h1 {
 
 
 .choice:hover {
-    background: #e0e0e0;
-    border-color: #007bff;
+    background: #1F0D3B;
+    border-color: #2B1052;
     transform: scale(1.02);
 }
 
